@@ -4,10 +4,51 @@
   box-sizing: border-box;
 }
 
+.list {
+  width: 960px;
+}
+
 .list:nth-child(odd) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   background-color: gray;
 }
 
 .list:nth-child(even) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   background-color: white;
+}
+
+.main-visual {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.box1 {
+  width: 30%;
+  height: 200px;
+  margin-top: 50px;
+  margin-right: 5%;
+  background-color: orange;
+}
+
+.box2 {
+  width: 30%;
+  height: 200px;
+  margin-top: 50px;
+  margin-right: 5%;
+  background-color: gold;
+}
+
+.box3 {
+  width: 30%;
+  height: 200px;
+  margin-top: 50px;
+  margin-right: 5%;
+  background-color: gold;
 }
