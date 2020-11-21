@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.list:nth-child(odd) {
+  background-color: gray;
+}
+
+.list:nth-child(even) {
+  background-color: white;
+}
